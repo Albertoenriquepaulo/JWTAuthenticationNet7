@@ -14,9 +14,8 @@ Es decir una vez obtenido el token este podrá ser usado para consultar cualquie
 
 **Request**
 
-![image-20230116183559167](C:\Users\alberto.paulo\AppData\Roaming\Typora\typora-user-images\image-20230116183559167.png)
-
-![image-20230116183643251](C:\Users\alberto.paulo\AppData\Roaming\Typora\typora-user-images\image-20230116183643251.png)
+- GetMessageRequest.png
+- CreateTokenRequest.png
 
 ## Specificar a secret key en appsettings.json
 
