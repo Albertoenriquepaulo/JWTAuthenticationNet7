@@ -17,3 +17,16 @@ Es decir una vez obtenido el token este podrá ser usado para consultar cualquie
 ![image-20230116183559167](C:\Users\alberto.paulo\AppData\Roaming\Typora\typora-user-images\image-20230116183559167.png)
 
 ![image-20230116183643251](C:\Users\alberto.paulo\AppData\Roaming\Typora\typora-user-images\image-20230116183643251.png)
+
+## Specificar a secret key en appsettings.json
+
+Note que se creó una sección en el archivo appsettings.json para la información del emisor, la audiencia y la clave. Esta información se utilizará más adelante para generar un token web JSON. Ten en cuenta que puede dar cualquier nombre;  Yo usaré el nombre "Jwt" por conveniencia.
+
+```json
+  "Jwt": {
+    "Issuer": "https://loquequieras.com/",
+    "Audience": "https://loquequieras.com/",
+    "Key": "This is a sample secret key - please don't use in production environment.'"
+  }
+```
+
